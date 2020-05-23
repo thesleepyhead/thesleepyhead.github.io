@@ -1,0 +1,192 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  background: linear-gradient(to right, #00CDCD, #008B8B);
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  color: #333;
+  text-align: center;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
+}
+
+p {
+  padding-top: 48px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #00CDCD , #008B8B);
+}
+.container::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: linear-gradient(to right, #5F9F9F, #C0D9D9);
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transition: transform 1s ease;
+}
+
+.toggle {
+  display: none;
+}
+
+.circle {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid rgba(254, 242, 254, 0.8);
+  background: #98F5FF;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 8px rgba(190, 88, 105, 0.2);
+  transition: box-shadow, opacity, transform 1s ease;
+  transform: translate(-50%, -50%);
+}
+
+.stripes {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: transform 1s ease, opacity 1s linear;
+}
+
+.stripe {
+  width: 24px;
+  height: 120%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100% 0;
+}
+.stripe::after {
+  width: 100%;
+  height: 42px;
+  border-radius: 100% 0;
+  top: 0;
+  left: 0;
+  content: "";
+  position: absolute;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+  transform: rotate(160deg);
+}
+
+.toggle:checked + .container::before {
+  transform: translate(-50%, -50%) scale(1.5);
+}
+.toggle:checked + .container .circle {
+  transform: translate(-50%, -50%) rotate(180deg);
+  box-shadow: 0 0 0 8px rgba(190, 88, 105, 0);
+}
+.toggle:checked + .container .stripes {
+  transform: translate(-50%, -50%) scale(3) rotate(180deg);
+  opacity: 0;
+}
+
+.stripe-1 {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.stripe-1::after {
+  background: linear-gradient(to right, #4A777A , #67E6EC);
+}
+
+.stripe-2 {
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+.stripe-2::after {
+  background: linear-gradient(to right, #67E6EC , #53868B);
+}
+
+.stripe-3 {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+.stripe-3::after {
+  background: linear-gradient(to right, #53868B , #7AC5CD);
+}
+
+.stripe-4 {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.stripe-4::after {
+  background: linear-gradient(to right, #7AC5CD, #98F5FF);
+}
+
+.stripe-5 {
+  transform: translate(-50%, -50%) rotate(120deg);
+}
+.stripe-5::after {
+  background: linear-gradient(to right, #98F5FF	, #39B7CD);
+}
+
+.stripe-6 {
+  transform: translate(-50%, -50%) rotate(150deg);
+}
+.stripe-6::after {
+  background: linear-gradient(to right, #39B7CD	, #C3E4ED);
+}
+
+.stripe-7 {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+.stripe-7::after {
+  background: linear-gradient(to right, #C3E4ED	, #9AC0CD);
+}
+
+.stripe-8 {
+  transform: translate(-50%, -50%) rotate(210deg);
+}
+.stripe-8::after {
+  background: linear-gradient(to right, #9AC0CD, #B2DFEE);
+}
+
+.stripe-9 {
+  transform: translate(-50%, -50%) rotate(240deg);
+}
+.stripe-9::after {
+  background: linear-gradient(to right, #B2DFEE, #0099CC);
+}
+
+.stripe-10 {
+  transform: translate(-50%, -50%) rotate(270deg);
+}
+.stripe-10::after {
+  background: linear-gradient(to right, #0099CC , #BFEFFF);
+}
+
+.stripe-11 {
+  transform: translate(-50%, -50%) rotate(300deg);
+}
+.stripe-11::after {
+  background: linear-gradient(to right, #BFEFFF, #87CEEB);
+}
+
+.stripe-12 {
+  transform: translate(-50%, -50%) rotate(330deg);
+}
+.stripe-12::after {
+  background: linear-gradient(to right, #87CEEB, #4A777A);
+}
