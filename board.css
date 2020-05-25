@@ -1,0 +1,124 @@
+@font-face{
+  font-family:material icons;
+  font-style:normal;
+  font-weight:400;
+  src:url(https://fonts.gstatic.com/s/materialicons/v41/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2')}.material-icons{font-family:material icons;font-weight:400;
+  font-style:normal;
+  font-size:24px;
+  line-height:1;
+  letter-spacing:normal;
+  text-transform:none;
+  display:inline-block;
+  white-space:nowrap;
+  word-wrap:normal;
+  direction:ltr;
+  -moz-font-feature-settings:'liga';
+  -moz-osx-font-smoothing:grayscale
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+  letter-spacing: .5px
+}
+body{
+  line-height:1;
+  background: #eee !important;
+  color:#323232
+}
+h3{
+  font-family:proxima_nova_ltsemibold;
+  font-weight:700;
+  font-style:normal;
+  font-size:30px
+}
+h6{
+  font-family:proxima nova scosf rg;
+  font-size:18px
+}
+p{
+  font-family:proxima nova;
+  font-size:16px;
+  font-weight:400;
+  line-height:1.5
+}
+a{
+  font-family:proxima nova alt rg;
+  font-size:16px;
+  transition:all .5s ease 0s
+}
+a:hover{
+  color:#f26522;
+  text-decoration:none;
+  transition:all .5s ease 0s
+}
+.vertical-space-30{
+  display:inline-block;
+  width:100%;
+  height:30px
+}
+.vertical-space-60{display:inline-block;width:100%;height:60px}
+.vertical-space-85{display:inline-block;width:100%;height:85px}
+.vertical-space-40{display:inline-block;width:100%;height:40px}
+.background-color-white-light{
+  background-color:#fbfbfb
+}
+#Job-Category{text-align:center}#Job-Category
+.max-width{max-width:56%;margin:0 auto;text-align:center}#Job-Category
+.box{width:265px;height:284px;padding:30px 0 19px;text-align:center;margin:0 auto;margin-bottom:0;margin-bottom:0;transition:all .5s ease 0s;margin-bottom:20px}#Job-Category
+.box .circle{width:110px;height:110px;margin:0 auto;background-color:#faece5;border-radius:50%;line-height:137px}#Job-Category
+.box h6{margin:33px 0;font-size:17px;font-family:proxima nova alt rg;font-weight:700}#Job-Category
+.box .job_post{width:150px;height:40px;text-align:center;border:1px solid #e1e1e1;border-radius:5px;padding:12px 26px;color:#6e6e6e;background:0 0;transition:all .5s ease 0s}#Job-Category
+.box:hover .job_post{width:150px;height:40px;text-align:center;border:1px solid;border-radius:5px;padding:12px 26px;color:#fff;background:#f26522;font-family:proxima nova rg;cursor:pointer;font-weight:700;transition:all .5s ease 0s}#Job-Category
+.box .button{overflow:hidden;text-decoration:none}#Job-Category
+.box.button span{transition-delay:0s;font-size:16px;font-family:proxima nova alt rg}#Job-Category
+.box .button::before,#Job-Category
+.box .button::after{content:'';position:absolute;left:0;width:100%;text-align:center;opacity:0;transition:all .5s ease 0s}#Job-Category
+.box .button:before{content:attr(data-hover)}#Job-Category
+.box .button:after{content:attr(data-active)}#Job-Category
+.box:hover .button span,#Job-Category
+.box .button:active span{opacity:0}#Job-Category
+.box:hover .button:before,#Job-Category
+.box .button:active:after{opacity:1;transform:translate(0,0);transition-delay:0s}#Job-Category
+.box .button:active:before{transform:translate(-10%,0);transition-delay:0s}#Job-Category
+.box:hover{background-color:#fff;box-shadow:0 0 10px 10px #f7f7f7;transition:all .5s ease 0s}#Job-Category
+.Brows-All-Category{width:199px;height:44px;border:1px solid #4c4c4c;background-color:transparent;border-radius:5px;margin:0 auto;color:#4c4c4c;font-family:proxima nova rg;cursor:pointer;font-weight:700;line-height:2.6;display:block}#Job-Category
+.Brows-All-Category a{width:100%;display:inline-block}#Job-Category
+.Brows-All-Category:hover{border:1px solid #f26522;color:#f26522}#top-Job-Category{text-align:center}#top-Job-Category
+.max-width{max-width:56%;margin:0 auto;text-align:center}#top-Job-Category
+.box{width:265px;height:284px;padding:30px 0 19px;text-align:center;margin:0 auto;margin-bottom:0;margin-bottom:0;transition:all .5s ease 0s;margin-bottom:20px;background-color:#fff;box-shadow:0 0 10px 6px #f7f7f7;transition:all .5s ease 0s}#top-Job-Category
+.box .circle{width:110px;height:110px;margin:0 auto;background-color:#faece5;border-radius:50%;line-height:137px}#top-Job-Category
+.box h6{margin:33px 0;font-size:17px;font-family:proxima nova alt rg;font-weight:700}#top-Job-Category
+.box .job_post{width:150px;height:40px;text-align:center;border:1px solid #e1e1e1;border-radius:20px;padding:12px 26px;color:#6e6e6e;background:0 0;transition:all 0s ease 0s}#top-Job-Category
+.box:hover .job_post{width:150px;height:40px;text-align:center;border:1px solid;border-radius:20px;padding:12px 26px;color:#fff;background:#f26522;font-family:proxima nova rg;cursor:pointer;font-weight:700;transition:all 0s ease 0s}#top-Job-Category
+.box .button{overflow:hidden;text-decoration:none}#top-Job-Category
+.box.button span{transition-delay:.2s;font-size:16px;font-family:proxima nova alt rg}#top-Job-Category
+.box .button::before,#top-Job-Category
+.box .button::after{content:'';position:absolute;left:0;width:100%;text-align:center;opacity:0;transition:.3s}#top-Job-Category
+.box .button:before{content:attr(data-hover)}#top-Job-Category
+.box .button:after{content:attr(data-active)}#top-Job-Category
+.box:hover .button span,#top-Job-Category
+.box .button:active span{opacity:0}#top-Job-Category
+.box:hover .button:before,#top-Job-Category
+.box .button:active:after{opacity:1;transform:translate(0,0);transition-delay:0s}#top-Job-Category
+.box .button:active:before{transform:translate(-10%,0);transition-delay:0s}#top-Job-Category
+.Brows-All-Category{width:199px;height:44px;border:1px solid #4c4c4c;background-color:transparent;border-radius:20px;margin:0 auto;color:#4c4c4c;font-family:proxima nova rg;cursor:pointer;font-weight:700;display:block;line-height:2.6}#top-Job-Category
+.Brows-All-Category:hover{color:#f26522;border:1px solid #f26522}#resent-job-post
+.max-width{max-width:56%;margin:0 auto;text-align:center}#resent-job-post
+.width-100{width:100%!important}#resent-job-post
+.Job-Category-box{height:309px;background-color:#fff;margin-bottom:20px;padding:23px 35px 42px 20px;text-align:left}#resent-job-post
+.Job-Category-box p.title{font-weight:700;margin-bottom:25px}#resent-job-post
+.Job-Nature-box p.title{font-weight:700;margin-bottom:25px}#resent-job-post
+.Job-Nature-box{height:211px;background-color:#fff;margin-bottom:20px;text-align:left;padding:26px 20px}#resent-job-post
+img{
+  align-content: center;
+}
+.mid {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}

@@ -1,0 +1,40 @@
+body{
+  background: #eee;
+}
+/* WRAPPER */
+.tickerv-wrap {
+  background: #eee;
+  box-sizing: content-box;
+  height: 100%; /* Take note of this */
+  overflow: hidden;
+  padding: 100px;
+}
+
+/* TICKER ANIMATION */
+@keyframes tickerv {
+  0%   {margin-top: 25%;}
+  /* Quite literally -ve height of wrapper */
+  25%  {margin-top: -26px;} /* 1 X 25 px */
+  50%  {margin-top: -52px;} /* 2 X 25 px */
+  75%  {margin-top: -78px;} /* 3 X 25 px */
+  100% {margin-top: 0;} /* Back to first line */
+}
+.tickerv-wrap ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  animation-name: tickerv; /* Loop through items */
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, .5, 0);
+}
+.tickerv-wrap ul:hover {
+  /* Pause on mouse hover */
+  animation-play-state: paused;
+}
+
+/* ITEMS */
+.tickerv-wrap ul li {
+  font-size: 20px;
+  line-height: 50px /* Same as wrapper height */
+}
