@@ -1,6 +1,6 @@
 Html/CSS
 <br>
-<ol>
+<ul>
   <li><a href="https://thesleepyhead.github.io/d1.html" target="_blank">END</a></li>
   <li><a href="https://thesleepyhead.github.io/flower.html" target="_blank">Animated Flower</a></li>
   <li><a href="https://thesleepyhead.github.io/d4.html" target="_blank">Say hi!!</a></li>
