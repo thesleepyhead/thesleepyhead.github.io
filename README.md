@@ -1,4 +1,4 @@
-<h1>thesleepyhead :sleeping:</h1>
+
 <ul>
    <li><a href="https://thesleepyhead.github.io/d1.html" target="_blank">END</a></li>
    <li><a href="https://thesleepyhead.github.io/home.html" target="_blank">Sample website</a></li>
