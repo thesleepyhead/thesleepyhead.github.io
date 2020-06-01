@@ -9,4 +9,5 @@
    <li><a href="https://thesleepyhead.github.io/d6.html" target="_blank">I grew a tree</a></li>
    <li><a href="https://thesleepyhead.github.io/d7.html" target="_blank">Fill a void :P</a></li>
    <li><a href="https://thesleepyhead.github.io/candle.html" target="_blank">It's lit</a></li>
+   <li><a href="https://thesleepyhead.github.io/balls.html" target="_blank">Newton's cradle balls</a></li>
 </ul>
