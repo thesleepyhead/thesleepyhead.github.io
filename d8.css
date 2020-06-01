@@ -1,6 +1,14 @@
 body{
   background: #000;
 }
+p{
+  color: #fff;
+  font-size: 10px;
+  font-style: oblique;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .frame {
   position: absolute;
   top: 25%;
