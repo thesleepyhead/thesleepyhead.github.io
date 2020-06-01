@@ -3,9 +3,10 @@ body{
 }
 p{
   color: #fff;
-  font-size: 10px;
+  font-size: 15px;
   font-style: oblique;
   font-family: 'Open Sans', Helvetica, sans-serif;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
