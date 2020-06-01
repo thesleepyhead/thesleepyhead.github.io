@@ -1,3 +1,6 @@
+body{
+  background: #696969;
+}
 .frame {
   position: absolute;
   top: 50%;
@@ -9,7 +12,7 @@
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #000;
+  background: #696969;
   color: #333;
   font-family: 'Open Sans', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
