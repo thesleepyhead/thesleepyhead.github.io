@@ -1,0 +1,50 @@
+p{
+  text-align: center;
+  top: 100px;
+  color: #602F44;
+  font-family: fantasy;
+  font-size: 60px;
+}
+body{
+  background: #DCFFFB;
+}
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #D2E9DA;
+  color: #fff;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pixel {
+  float: left;
+}
+.pixel input {
+  display: none;
+}
+.pixel label {
+  box-sizing: border-box;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #AFDAC1;
+  cursor: pointer;
+}
+.pixel label:hover {
+  background: #AFDBCA;
+  border-color: #AFDAC1;
+}
+.pixel input:checked ~ label {
+  background: #9A91AC;
+  border-color: #9A91AC;
+}
