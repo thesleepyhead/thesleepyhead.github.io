@@ -11,4 +11,5 @@
    <li><a href="https://thesleepyhead.github.io/candle.html" target="_blank">It's lit</a></li>
    <li><a href="https://thesleepyhead.github.io/balls.html" target="_blank">Newton's cradle balls</a></li>
    <li><a href="https://thesleepyhead.github.io/d8.html" target="_blank">Time travel???</a></li>
+   <li><a href="https://thesleepyhead.github.io/game.html" target="_blank">Tap and create</a></li>
 </ul>
