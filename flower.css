@@ -1,3 +1,10 @@
+p{
+  text-align: center;
+  top: 100px;
+  color: #602F44;
+  font-family: fantasy;
+  font-size: 60px;
+}
 .frame {
   position: absolute;
   top: 50%;
