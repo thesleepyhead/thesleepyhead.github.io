@@ -12,5 +12,6 @@
    <li><a href="https://thesleepyhead.github.io/balls.html" target="_blank">Newton's cradle balls</a></li>
    <li><a href="https://thesleepyhead.github.io/d8.html" target="_blank">Time travel???</a></li>
    <li><a href="https://thesleepyhead.github.io/game.html" target="_blank">Tap and create</a></li>
-   <li><a href="https://thesleepyhead.github.io/daisy.html" target="_blank">grew a daisy</a></li>
+   <li><a href="https://thesleepyhead.github.io/daisy.html" target="_blank">Grew a daisy</a></li>
+   <li><a href="https://thesleepyhead.github.io/illus.html" target="_blank">Illusion</a></li>
 </ul>
