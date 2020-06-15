@@ -14,4 +14,5 @@
    <li><a href="https://thesleepyhead.github.io/game.html" target="_blank">Tap and create</a></li>
    <li><a href="https://thesleepyhead.github.io/daisy.html" target="_blank">Grew a daisy</a></li>
    <li><a href="https://thesleepyhead.github.io/illus.html" target="_blank">Illusion</a></li>
+   <li><a href="https://thesleepyhead.github.io/bill.html" target="_blank">Bill</a></li>
 </ul>
