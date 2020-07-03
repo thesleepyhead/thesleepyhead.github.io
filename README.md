@@ -17,4 +17,5 @@
    <li><a href="https://thesleepyhead.github.io/pacman.html" target="_blank">Pac-man</a></li>
    <li><a href="https://thesleepyhead.github.io/bill.html" target="_blank">Bill</a></li>
    <li><a href="https://thesleepyhead.github.io/jerry.html" target="_blank">Jerry</a></li>
+   <li><a href="https://thesleepyhead.github.io/heartsw.html" target="_blank">Hearts</a></li>
 </ul>
